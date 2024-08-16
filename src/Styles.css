@@ -1,0 +1,241 @@
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* font-family: "Quicksand", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+    -webkit-font-smoothing: antialiased;
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 36px;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header h3 {
+  font-size: 15px;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-weight: 540;
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.header-link:hover h3 {
+  color: #7ca2cb;
+}
+
+.header > .header-link {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #f6f8fc, #e8e9ea, #d9dfea);
+  border-top: 0.5px solid #cacfd5;
+  border-bottom: 0.5px solid #cacfd5;
+  margin-bottom: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.slide-content {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.slide h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.slide p {
+  font-size: 24px;
+  font-weight: 550;
+  line-height: 1.6;
+  margin-top: 10px;
+  max-width: 800px;
+}
+
+.about-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: calc(100vh - 300px);
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.project-card {
+  background-color: #f9f9f9; /* Light background for the card */
+  margin: 20px 0; /* Space between each card */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-card .skills {
+  margin-top: 15px;
+}
+
+.project-card .skill {
+  display: inline-block;
+  background: #81a7cf;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 10px;
+  color: #81a7cf;
+  text-decoration: none;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stripe-separator {
+  height: 2px;
+  background-color: #cacfd5; /* Stripe color */
+  margin: 20px 0;
+  width: 100%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 5px;
+}
+
+.social-media a {
+  font-size: 22px;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  background-color: #585353;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-body-content {
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.about-body-content p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 0;
+  color: #cacfd5;
+  margin-top: auto; /* Push the footer to the bottom */
+  border-top: 0.01px solid #ededed;
+}
+
+.footer p {
+  color: #cacfd5;
+}
+
+.icon-profile-photo {
+  height: 100px;
+  width: 102px;
+  border-radius: 50%;
+  border: 0.8px solid #a0a0a0;
+}
+
+.wheel {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px dashed #b50404;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  cursor: pointer;
+  transition: transform 3s ease-out;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+.spinning {
+  animation: spin 3s ease-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1440deg); /* 4 full spins */
+  }
+}
