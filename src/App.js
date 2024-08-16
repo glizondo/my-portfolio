@@ -12,18 +12,15 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className="container">
         <Header onBodyChange={handleBodyChange} />
         <Routes>
           <Route path="/" element={<Navigate to="/about" replace />} />
-          <Route path="about" element={<Body bodyName={selectedPage} />} />
-          <Route path="projects" element={<Body bodyName={selectedPage} />} />
-          <Route path="funfact" element={<FunFactSlide />} />
-          <Route
-            path="photography"
-            element={<Body bodyName={selectedPage} />}
-          />
+          <Route path="/about" element={<Body bodyName={selectedPage} />} />
+          <Route path="/projects" element={<Body bodyName={selectedPage} />} />
+          <Route path="/funfact" element={<FunFactSlide />} />
+          <Route path="/photography" element={<Body bodyName={selectedPage} />} />
         </Routes>
       </div>
       <Footer />
