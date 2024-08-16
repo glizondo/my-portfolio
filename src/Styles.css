@@ -17,8 +17,8 @@ html {
 }
 
 h3 {
-    -webkit-font-smoothing: antialiased;
-  }
+  -webkit-font-smoothing: antialiased;
+}
 
 .container {
   display: flex;
@@ -49,7 +49,6 @@ h3 {
 .header-link {
   text-decoration: none;
   color: inherit;
-  
 }
 
 .header-link:hover h3 {
@@ -111,8 +110,8 @@ h3 {
 }
 
 .project-card {
-  background-color: #f9f9f9; /* Light background for the card */
-  margin: 20px 0; /* Space between each card */
+  background-color: #f9f9f9;
+  margin: 20px 0;
   padding: 20px;
   border-radius: 10px;
 }
@@ -156,7 +155,7 @@ h3 {
 
 .stripe-separator {
   height: 2px;
-  background-color: #cacfd5; /* Stripe color */
+  background-color: #cacfd5;
   margin: 20px 0;
   width: 100%;
 }
@@ -198,7 +197,7 @@ h3 {
   font-size: 15px;
   padding: 10px 0;
   color: #cacfd5;
-  margin-top: auto; /* Push the footer to the bottom */
+  margin-top: auto;
   border-top: 0.01px solid #ededed;
 }
 
@@ -236,6 +235,6 @@ h3 {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(1440deg); /* 4 full spins */
+    transform: rotate(1440deg);
   }
 }

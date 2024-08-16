@@ -1,7 +1,6 @@
 import "../../Styles.css";
 import { useState, useEffect } from "react";
 import facts from "../../FunFactsData";
-import Confetti from "react-confetti";
 
 function FunFactSlide() {
   const [currentFact, setCurrentFact] = useState("");
