@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio/about/static/css/main.21eb5d50.css",
-    "main.js": "/my-portfolio/about/static/js/main.8b62fcc8.js",
-    "static/js/453.acca0757.chunk.js": "/my-portfolio/about/static/js/453.acca0757.chunk.js",
-    "static/media/photo.png": "/my-portfolio/about/static/media/photo.ab266da5327f62a761a3.png",
-    "index.html": "/my-portfolio/about/index.html",
-    "static/media/github.svg": "/my-portfolio/about/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
-    "static/media/twitter.svg": "/my-portfolio/about/static/media/twitter.410a9d14144a810542330f7d951ff2cf.svg",
-    "static/media/instagram.svg": "/my-portfolio/about/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
-    "static/media/linkedin.svg": "/my-portfolio/about/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
-    "static/media/facebook.svg": "/my-portfolio/about/static/media/facebook.54b6ed1796ae51e7991a86b99ceb8334.svg",
-    "main.21eb5d50.css.map": "/my-portfolio/about/static/css/main.21eb5d50.css.map",
-    "main.8b62fcc8.js.map": "/my-portfolio/about/static/js/main.8b62fcc8.js.map",
-    "453.acca0757.chunk.js.map": "/my-portfolio/about/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.21eb5d50.css",
+    "main.js": "/my-portfolio/static/js/main.7d862e4c.js",
+    "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/photo.png": "/my-portfolio/static/media/photo.ab266da5327f62a761a3.png",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/github.svg": "/my-portfolio/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
+    "static/media/twitter.svg": "/my-portfolio/static/media/twitter.410a9d14144a810542330f7d951ff2cf.svg",
+    "static/media/instagram.svg": "/my-portfolio/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
+    "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
+    "static/media/facebook.svg": "/my-portfolio/static/media/facebook.54b6ed1796ae51e7991a86b99ceb8334.svg",
+    "main.21eb5d50.css.map": "/my-portfolio/static/css/main.21eb5d50.css.map",
+    "main.7d862e4c.js.map": "/my-portfolio/static/js/main.7d862e4c.js.map",
+    "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21eb5d50.css",
-    "static/js/main.8b62fcc8.js"
+    "static/js/main.7d862e4c.js"
   ]
 }
