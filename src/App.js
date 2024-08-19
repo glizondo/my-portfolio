@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
-import FunFactSlide from "./components/FunFact/FunFactBody";
+import FunFactBody from "./components/FunFact/FunFactBody";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("about");
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Navigate to="/about" replace />} />
           <Route path="/about" element={<Body bodyName={selectedPage} />} />
           <Route path="/projects" element={<Body bodyName={selectedPage} />} />
-          <Route path="/funfact" element={<FunFactSlide />} />
+          <Route path="/funfact" element={<FunFactBody />} />
           <Route path="/photography" element={<Body bodyName={selectedPage} />} />
         </Routes>
       </div>

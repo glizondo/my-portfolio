@@ -2,7 +2,7 @@ import "../../Styles.css";
 import { useState, useEffect } from "react";
 import facts from "../../FunFactsData";
 
-function FunFactSlide() {
+function FunFactBody() {
   const [currentFact, setCurrentFact] = useState("");
   const [isSpinning, setIsSpinning] = useState(false);
   const [hasSpun, setHasSpun] = useState(false);
@@ -53,4 +53,4 @@ function FunFactSlide() {
   );
 }
 
-export default FunFactSlide;
+export default FunFactBody;
