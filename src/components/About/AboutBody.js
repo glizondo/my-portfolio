@@ -1,9 +1,9 @@
-import "../../Styles.css";
 import { ReactComponent as FacebookIcon } from "../../Icons/facebook.svg";
-import { ReactComponent as TwitterIcon } from "../../Icons/twitter.svg";
-import { ReactComponent as LinkedInIcon } from "../../Icons/linkedin.svg";
-import { ReactComponent as InstagramIcon } from "../../Icons/instagram.svg";
 import { ReactComponent as GithubIcon } from "../../Icons/github.svg";
+import { ReactComponent as InstagramIcon } from "../../Icons/instagram.svg";
+import { ReactComponent as LinkedInIcon } from "../../Icons/linkedin.svg";
+import { ReactComponent as TwitterIcon } from "../../Icons/twitter.svg";
+import "../../Styles.css";
 
 function AboutBody() {
   return (
@@ -50,13 +50,12 @@ function AboutBody() {
       <section className="about-body-content">
         <h2>About me</h2>
         <p>
-          Hi there! I’m Guillermo Lizondo, a Full-Stack Software
-          Engineer with a B.S. in Digital Media Software Engineering. I love
-          crafting innovative solutions that make a real difference, from
-          building backend projects to designing dynamic front-end
-          experiences. My journey has been all about optimizing processes and
-          enhancing productivity, all while collaborating with fantastic teams
-          to deliver impactful results. Let’s connect and explore what we can do!
+        Hey there! I’m Guillermo Lizondo, a Full-Stack Software Engineer with a degree in 
+        Digital Media Software Engineering. I’m all about building tech that makes a 
+        difference, whether it's optimizing backend systems or creating dynamic front-end designs. 
+        I’ve built machine learning models for image classification and predicting 
+        logistics, and I love finding new ways to make things work better. I’m into teamwork, cross-collaboration,
+        and learning new concepts. Let’s connect and see what awesome things we can build together!
         </p>
       </section>
     </div>
