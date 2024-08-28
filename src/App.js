@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <Router basename="/my-portfolio">
+    <Router>
       <div className="container">
         <Header onBodyChange={handleBodyChange} />
         <Routes>
