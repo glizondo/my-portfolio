@@ -18,13 +18,6 @@ function Header({ onBodyChange }) {
       >
         <h3>PROJECTS</h3>
       </Link>
-      <Link
-        to="/funfact"
-        onClick={() => onBodyChange("funfact")}
-        className="header-link"
-      >
-        <h3>FUN FACT OF THE DAY</h3>
-      </Link>
       <a
         href="https://fineartamerica.com/profiles/guillermo-lizondo"
         className="header-link"

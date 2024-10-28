@@ -18,7 +18,7 @@ const projectsData = [
     image: "xpo_project.jpg",
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer Coop",
     company: "Consultant Masetto Logistics",
     date: "September 2023 - December 2023, Remote",
     description:

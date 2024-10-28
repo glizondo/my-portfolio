@@ -50,7 +50,7 @@ function AboutBody() {
       <section className="about-body-content">
         <h2>About me</h2>
         <p>
-        Hey there! I’m Guillermo Lizondo, a Full-Stack Software Engineer with a degree in 
+        Hey there! I’m Will Lizondo, a Full-Stack Software Engineer with a degree in 
         Digital Media Software Engineering. I’m all about building tech that makes a 
         difference, whether it's optimizing backend systems or creating dynamic front-end designs. 
         I’ve built machine learning models for image classification and predicting 

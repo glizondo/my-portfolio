@@ -19,7 +19,6 @@ function App() {
           <Route path="/" element={<Navigate to="/about" replace />} />
           <Route path="/about" element={<Body bodyName={selectedPage} />} />
           <Route path="/projects" element={<Body bodyName={selectedPage} />} />
-          <Route path="/funfact" element={<FunFactBody />} />
           <Route path="/photography" element={<Body bodyName={selectedPage} />} />
         </Routes>
       </div>

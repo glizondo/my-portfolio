@@ -7,7 +7,7 @@ function AboutSlide() {
       <div className="slide-content">
         <img className="icon-profile-photo" src={Profile} alt="profile"></img>
         <p>
-          Embracing life’s challenges through code and collaboration—let’s build
+          Embracing life’s challenges through code and collaboration. Let’s build
           something great together.
         </p>
       </div>
